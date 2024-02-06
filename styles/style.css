@@ -8,6 +8,7 @@ body {
     font-family: "Alata", sans-serif;
 }  
 
+
 header {
     display: flex;
     flex-direction: row;
@@ -57,9 +58,15 @@ h1 {
 
 
 
-main {
+.main {
     padding: 10px;
 }
+
+@keyframes main {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
 
 #home {
     height: 70ch;
